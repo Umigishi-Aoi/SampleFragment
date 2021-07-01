@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
 
-    <fragment
+    <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragment_1"
         android:name="com.zerokaraapp.samplefragment.Fragment1"
         android:layout_width="0dp"
